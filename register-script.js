@@ -26,3 +26,23 @@ function calculateAge (yearOfBirth) {
     const thisYear = new Date().getFullYear();
     return thisYear - yearOfBirth;
 }
+
+//Aqui está uma forma um pouco mais simples do codigo JS
+
+// function handleSubmit(event) {
+//     event.preventDefault();
+
+//     const firstName = document.getElementById("firstName").value;
+//     const lastName = document.getElementById("lastName").value;
+//     const fieldOfStudy = document.getElementById("fieldOfStudy").value;
+//     const birthDate = document.getElementById("birthDate").value;
+
+//     const mensagem = `
+//     Nome: ${firstName} ${lastName}
+//     Campo de Estudo: ${fieldOfStudy}
+//     Data de Nascimento: ${birthDate}`;
+
+//     alert(mensagem);
+// }
+// document.querySelector("form").addEventListener("submit", handleSubmit);
+
