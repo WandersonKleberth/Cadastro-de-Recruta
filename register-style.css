@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #002b0d; */
+    /* background: linear-gradient(to left, #033306 50%, transparent 50%),
+                url(img/01a-7.jpg.webp);
+    background-size: cover; */
+    background-image: url(img/camuflado.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    color: green;
+    text-shadow:
+        -1px -1px 0 #000, /* Sombra superior esquerda */
+        1px -1px 0 #000,  /* Sombra superior direita */
+        -1px 1px 0 #000,  /* Sombra inferior esquerda */
+        1px 1px 0 #000;   /* Sombra inferior direita */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: gray;
+    text-shadow:
+        -1px -1px 0 #000, /* Sombra superior esquerda */
+        1px -1px 0 #000,  /* Sombra superior direita */
+        -1px 1px 0 #000,  /* Sombra inferior esquerda */
+        1px 1px 0 #000;   /* Sombra inferior direita */
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px 4px #000;
+    border-radius: 15px;
+    background-image: url(img/brasao.jpg);
+    background-size: cover;
+    color: yellowgreen;
+    /* border: none; */
+    text-shadow:
+        -1px -1px 0 #000, /* Sombra superior esquerda */
+        1px -1px 0 #000,  /* Sombra superior direita */
+        -1px 1px 0 #000,  /* Sombra inferior esquerda */
+        1px 1px 0 #000;   /* Sombra inferior direita */
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px; /* Espaço abaixo da imagem, ajuste conforme desejado */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #327e00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #033306;
+}
+
+.text-center {
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register-style.css">
+    <script src="register-script.js" defer></script>
+    <title>Cadastro de usuário</title>
+</head>
+
+<body>
+    <div class="card">
+        <h1>Cadastro de Recrutas</h1>
+        <h2>Preencha suas informações</h2>
+        <form>
+            <div class="form-group">
+                <label for="firstName">Primeiro Nome:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Digite seu primeiro nome" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Sobrenome:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Digite seu sobrenome" required>
+            </div>
+            <div class="form-group">
+                <label for="fieldOfStudy">Campo de Estudo:</label>
+                <input type="text" id="fieldOfStudy" name="fieldOfStudy" placeholder="Digite seu campo de estudo"
+                    required>
+            </div>
+            <div class="form-group">
+                <label for="birthDate">Ano de Nascimento:</label>
+                <input type="date" id="birthDate" name="birthDate" required>
+            </div>
+            <div class="form-group text-center"> <!-- Novo elemento div para centralizar o botão -->
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
