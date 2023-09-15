@@ -38,9 +38,9 @@ function calculateAge (yearOfBirth) {
 //     const birthDate = document.getElementById("birthDate").value;
 
 //     const mensagem = `
-//     Nome: ${firstName} ${lastName}
-//     Campo de Estudo: ${fieldOfStudy}
-//     Data de Nascimento: ${birthDate}`;
+//     Nome: ${firstName.toUpperCase()} ${lastName.toUpperCase()}
+//     Campo de Estudo: ${fieldOfStudy.toUpperCase()}
+//     Data de Nascimento: ${birthDate.toUpperCase()}`;
 
 //     alert(mensagem);
 // }
